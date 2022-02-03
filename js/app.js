@@ -1,6 +1,7 @@
 const textBox = document.querySelector('#text-box')
 const button = document.querySelector('#submit-button')
 const list =  document.querySelector('todo-list')
+const reset = document.querySelector('#reset')
 
 button.addEventListener('click', function(act){
   const myList = document.createElement('li')
@@ -12,3 +13,11 @@ button.addEventListener('click', function(act){
     console.log(myList)
   }
 })
+
+reset.addEventListener('click', function(clear){
+  document.getElementById('todo-list').innerHTML =  ""
+})
+
+function remove(elem){
+  elem.parentNode.removeChild(elem);
+}
