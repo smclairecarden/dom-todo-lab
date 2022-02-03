@@ -1,3 +1,33 @@
 body {
   text-align: center;
+  margin: auto;
+  padding: auto;
+  background-color: lightgray;
+
+}
+
+h1 {
+  color: purple;
+}
+
+#text-box {
+  display: inline-block;
+}
+
+#submit-button {
+display: inline;
+background-color: slateblue;
+}
+
+#reset {
+ display: inline;
+ background-color: slategray;
+}
+
+#todo-list {
+  text-align: center;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  padding: auto;
 }
